@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rate-limiter-service"
+version = "0.1.0"
+description = ""
+authors = ["Nitish Sharma <nisharma@linkedin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.1"
+redis = "^5.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
